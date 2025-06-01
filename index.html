@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cyberpunk Login</title>
+
+<!-- Font Awesome for icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+<!-- Link to external CSS -->
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="container">
+  <h1>DarkModz Project</h1>
+
+  <!-- LOGIN SCREEN -->
+  <div id="login-screen">
+    <button id="google-login" class="login-btn google">
+      <i class="fab fa-google"></i> Login with Google
+    </button>
+    <button id="facebook-login" class="login-btn facebook">
+      <i class="fab fa-facebook-f"></i> Login with Facebook
+    </button>
+  </div>
+
+  <!-- DASHBOARD (hidden until login) -->
+  <div id="dashboard">
+    <h2>Welcome!</h2>
+
+    <a href="(enter download link)" class="neon-button" target="_blank" rel="noopener">
+      <i class="fas fa-arrow-down"></i> Download
+    </a>
+    <a href="(enter discord link)" class="neon-button" target="_blank" rel="noopener">
+      <i class="fab fa-discord"></i> Discord
+    </a>
+    <a href="(enter tutorial link)" class="neon-button" target="_blank" rel="noopener">
+      <i class="fas fa-video"></i> Tutorial
+    </a>
+
+    <br /><br />
+    <button id="logout-btn" class="logout-btn">
+      Logout
+    </button>
+  </div>
+</div>
+
+<script type="module" src="authlogin.js"></script>
+</body>
+</html>
